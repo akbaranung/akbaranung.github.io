@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Spartan:wght@700&display=swap");
 body {
+  height: auto;
   font-family: "Spartan", sans-serif;
 }
 a {
@@ -102,8 +103,8 @@ ul li.active a {
 }
 
 .skills {
-  height: 650px;
-  /* margin-top: 150px; */
+  /*height: 500px;*/
+   margin-top: 150px; 
 }
 
 .skills img {
@@ -120,7 +121,11 @@ ul li.active a {
 }
 
 .portfolio {
-  height: 650px;
+  margin-top: 320px;
+}
+
+.contact{
+  margin-top: 320px;
 }
 
 .contact .heading {
@@ -141,7 +146,7 @@ ul li.active a {
 }
 
 /*Responsive*/
-@media (max-width: 991px) {
+@media (max-width: 800px) {
   .home h2 {
     font-size: 40px;
   }
@@ -166,16 +171,16 @@ ul li.active a {
     margin-bottom: 90px;
     font-size: 20px;
   }
-  .contact {
+ /* .contact {
     margin-top: 200px;
-  }
+  }*/
 
   .skills img {
     margin-top: 80px;
     height: 70px;
   }
 
-  .skills {
+  /*.skills {
     height: 300px;
-  }
+  }*/
 }
