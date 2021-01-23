@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Spartan:wght@700&display=swap");
+body {
+  font-family: "Spartan", sans-serif;
+}
+a {
+  color: black !important;
+  text-transform: uppercase;
+}
+
+.brand-logo {
+  color: rgb(7, 150, 2) !important;
+  font-weight: bold;
+}
+
+.nav-wrapper a.brand-logo {
+  font-size: 25px;
+}
+
+.nav-wrapper ul li a {
+  color: white !important;
+}
+
+.nav-wrapper ul li a:hover {
+  color: rgb(7, 150, 2) !important;
+  font-weight: bold;
+}
+
+ul li.active a {
+  border-bottom: 3px solid rgb(7, 150, 2);
+  color: rgb(7, 150, 2) !important;
+  font-weight: bold;
+}
+.home {
+  padding-top: 180px;
+  color: bisque;
+}
+
+.main {
+  background-color: rgb(12, 11, 11);
+  height: 700px;
+}
+
+.home h2 {
+  font-size: 50px;
+}
+
+.home h2 span {
+  color: rgb(7, 150, 2);
+  font-weight: bold;
+}
+
+.home p {
+  font-size: 30px;
+}
+
+.home .button {
+  background: none;
+  border: 2px solid rgb(7, 150, 2);
+  color: white !important;
+  padding: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.home .button:hover {
+  background: rgb(7, 150, 2);
+  color: black !important;
+}
+
+.about p,
+.about h5 {
+  text-align: justify;
+  margin-top: 70px;
+}
+
+.about h5 {
+  font-weight: bold;
+}
+
+.about h2 {
+  margin-bottom: 90px;
+  font-size: 25px;
+}
+
+.about h3 {
+  margin-top: 50px;
+}
+
+.about p {
+  font-size: 20px;
+  margin-top: 35px;
+}
+
+.about {
+  height: 600px;
+  margin-top: 180px;
+}
+
+.about img {
+  height: 300px;
+}
+
+.skills {
+  height: 650px;
+  /* margin-top: 150px; */
+}
+
+.skills img {
+  height: 100px;
+  margin-top: 100px;
+}
+
+.skills img.php {
+  width: 100px;
+}
+
+.portfolio img {
+  height: 150px;
+}
+
+.portfolio {
+  height: 650px;
+}
+
+.contact .heading {
+  padding-top: 10px;
+}
+
+.portfolio div a {
+  margin-top: 20px;
+}
+
+.contact i {
+  margin: 10px;
+  font-size: 50px;
+}
+
+.contact .sosmed {
+  margin-top: 55px;
+}
+
+/*Responsive*/
+@media (max-width: 991px) {
+  .home h2 {
+    font-size: 40px;
+  }
+  .home p {
+    font-size: 20px;
+  }
+
+  .about img {
+    display: flex;
+    justify-content: center;
+  }
+  .about p,
+  .about h5 {
+    text-align: justify;
+  }
+
+  .about p {
+    font-size: 18px;
+  }
+
+  .about h2 {
+    margin-bottom: 90px;
+    font-size: 20px;
+  }
+  .contact {
+    margin-top: 200px;
+  }
+
+  .skills img {
+    margin-top: 80px;
+    height: 70px;
+  }
+
+  .skills {
+    height: 300px;
+  }
+}
