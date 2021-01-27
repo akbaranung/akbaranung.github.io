@@ -12,3 +12,8 @@ M.ScrollSpy.init(scroll,{
 
 const parallax = document.querySelectorAll('.parallax');
 M.Parallax.init(parallax);
+
+var preloader = document.getElementById('loading');
+function myFunction(){
+	preloader.style.display='none';
+}
